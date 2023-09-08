@@ -1,5 +1,4 @@
 !##############################################################################
-! MSIS?(NRL-SOF-014-1) SOFTWARE
 !
 ! MSIS?is a registered trademark of the Government of the United States of 
 ! America, as represented by the Secretary of the Navy. Unauthorized use of 
@@ -16,7 +15,7 @@
 ! Software or any supporting data to any other person or entity who will use 
 ! the Software for any non-academic, commercial purposes, or (iv) copy the 
 ! Software or any documentation related thereto except for (a) distribution 
-! among the user’s personal computer systems, archival, or emergency repair 
+! among the useræŠ¯ personal computer systems, archival, or emergency repair 
 ! purposes, or (b) distribution for non-commercial, academic purposes, without 
 ! first obtaining the written consent of IP Counsel for the Naval Research 
 ! Laboratory. 
@@ -63,12 +62,12 @@ program msistest
   call msisinit(parmpath='',parmfile='H:\msis-v2\msis-v2\msis20.parm')          !"H:\msis-v2\msis-v2\msis20.parm"
   xtex=900
   !Open input and output files, loop through records, and call model
-  open(77,file='H:\model.zip\model\NRLMSIS2.0\msis2.0_test_in.txt',status='old')           !Â·¾¶'H:\msis-v2\msis-v2\msis2.0_test_in.txt'    E:\nrlm20_in_200911.txt
-  open(78,file='E:\nrlm20_out_200911.txt',status='replace')      !Â·¾¶'H:\msis-v2\msis-v2\msis2.0_test_out.txt'   E:\nrlm20_out_200911.txt
+  open(77,file='H:\model.zip\model\NRLMSIS2.0\msis2.0_test_in.txt',status='old')           !è·¯å¾„'H:\msis-v2\msis-v2\msis2.0_test_in.txt'    E:\nrlm20_in_200911.txt
+  open(78,file='E:\nrlm20_out_200911.txt',status='replace')      !è·¯å¾„'H:\msis-v2\msis-v2\msis2.0_test_out.txt'   E:\nrlm20_out_200911.txt
   read(77,*) dummy
   write(78,'(9a7,9a13,a8)') &
     'iyd','sec','alt','glat','glong','stl','f107a','f107','Ap','He','O','N2','O2','Ar','rho','H','N','O*','T'
-  do i = 1,200                                                     !ÊäÈëÊı¾İµÄĞĞÊı
+  do i = 1,200                                                     !è¾“å…¥æ•°æ®çš„è¡Œæ•°
 	  read(77,*) iyd,sec,alt,glat,glong,stl,f107a,f107,apd    !read(77,*) iyd,sec,alt,glat,glong,stl,f107a,f107,apd,ap
      !write(*,*) ap(1)
     ap(1) = apd
