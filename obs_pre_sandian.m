@@ -1,4 +1,4 @@
-%横纵坐标是obs pre(MBiLE和NRLM2.0) 三个卫星 散点+拟合
+
 %%  简单的散点图
 %%  swarm c
 %图
