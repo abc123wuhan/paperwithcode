@@ -3,7 +3,6 @@
 ! MSIS?is a registered trademark of the Government of the United States of 
 ! America, as represented by the Secretary of the Navy. Unauthorized use of 
 ! the trademark is prohibited. 
-!
 ! The MSIS?Software (hereinafter Software) is property of the United States 
 ! Government, as represented by the Secretary of the Navy. Methods performed
 ! by this software are covered by U.S. Patent Number 10,641,925. The Government
