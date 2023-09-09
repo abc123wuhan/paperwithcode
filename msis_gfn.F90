@@ -1,6 +1,5 @@
 !##############################################################################
 ! MSIS?(NRL-SOF-014-1) SOFTWARE
-!
 ! MSIS?is a registered trademark of the Government of the United States of 
 ! America, as represented by the Secretary of the Navy. Unauthorized use of 
 ! the trademark is prohibited. 
@@ -16,7 +15,7 @@
 ! Software or any supporting data to any other person or entity who will use 
 ! the Software for any non-academic, commercial purposes, or (iv) copy the 
 ! Software or any documentation related thereto except for (a) distribution 
-! among the user’s personal computer systems, archival, or emergency repair 
+! among the userâ€™s personal computer systems, archival, or emergency repair 
 ! purposes, or (b) distribution for non-commercial, academic purposes, without 
 ! first obtaining the written consent of IP Counsel for the Naval Research 
 ! Laboratory. 
