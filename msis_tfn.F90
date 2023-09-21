@@ -1,4 +1,4 @@
-!##############################################################################
+!#############################################################################
 ! MSIS?(NRL-SOF-014-1) SOFTWARE
 ! MSIS?is a registered trademark of the Government of the United States of 
 ! America, as represented by the Secretary of the Navy. Unauthorized use of 
