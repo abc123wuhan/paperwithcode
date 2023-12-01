@@ -14,7 +14,7 @@ The model framework is described in "model framework.bmp", see the Model constru
 
 III. Running environment
 
-We are using a WU supercomputer, graphics card: Nvidia Tesla V100 16GB, operating system: 64-bit CentOS 7.5 Linux with 64 architecture.
+We are using a WHU supercomputer, operating system: 64-bit CentOS 7.5 Linux with 64 architecture.
 python version: 3.7.13
 Framework: tensorflow, keras
 Packages needed to run the program:
